@@ -12,6 +12,7 @@ public class SpringProjectApplication {
     String home(){
         return "Hello World!";
     }
+
     public static void main(String[] args) {
         SpringApplication.run(SpringProjectApplication.class, args);
     }
